@@ -1,0 +1,351 @@
+{
+    "liabilities": {
+        "dev": {
+            "active": true,
+            "active_no_of_loan": 1,
+            "loans": {
+                "2": {
+                    "active": true,
+                    "transaction_date": "2024-11-26",
+                    "date_of_data_entry": "2024-11-26",
+                    "main_principle": 500000.0,
+                    "current_principle": 500000.0,
+                    "interest_rate": 2.0,
+                    "interest_payment_interval_months": 2.0,
+                    "deadline_months": 36.0,
+                    "Interest_accumulated_till_today": [
+                        0.0,
+                        0.0
+                    ],
+                    "remark": "goods",
+                    "upcoming_emi_list": [
+                        {
+                            "date": "2024-11-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-01-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-03-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-05-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-07-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-09-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-11-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-01-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-03-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-05-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-07-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-09-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-11-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2027-01-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2027-03-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2027-05-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2027-07-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2027-09-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        },
+                        {
+                            "date": "2027-11-26",
+                            "amount": 20000.0,
+                            "done": false,
+                            "lender_name": "dev",
+                            "id": 2,
+                            "remark": []
+                        }
+                    ],
+                    "repayment_list": {}
+                }
+            },
+            "total_liabilities": 500000.0,
+            "emi_list": {}
+        },
+        "ankit": {
+            "active": true,
+            "active_no_of_loan": 1,
+            "loans": {
+                "1": {
+                    "active": true,
+                    "transaction_date": "2024-01-01",
+                    "date_of_data_entry": "2024-11-26",
+                    "main_principle": 500000.0,
+                    "current_principle": 500000.0,
+                    "interest_rate": 2.0,
+                    "interest_payment_interval_months": 4.0,
+                    "deadline_months": 24.0,
+                    "Interest_accumulated_till_today": 108333.33333333334,
+                    "remark": "cash",
+                    "upcoming_emi_list": [
+                        {
+                            "date": "2024-01-01",
+                            "amount": 40000.0,
+                            "done": false,
+                            "lender_name": "ankit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2024-05-01",
+                            "amount": 40000.0,
+                            "done": false,
+                            "lender_name": "ankit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2024-09-01",
+                            "amount": 40000.0,
+                            "done": false,
+                            "lender_name": "ankit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-01-01",
+                            "amount": 40000.0,
+                            "done": false,
+                            "lender_name": "ankit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-05-01",
+                            "amount": 40000.0,
+                            "done": false,
+                            "lender_name": "ankit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-09-01",
+                            "amount": 40000.0,
+                            "done": false,
+                            "lender_name": "ankit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-01-01",
+                            "amount": 40000.0,
+                            "done": false,
+                            "lender_name": "ankit",
+                            "id": 1,
+                            "remark": []
+                        }
+                    ],
+                    "repayment_list": {}
+                }
+            },
+            "total_liabilities": 500000.0,
+            "emi_list": {}
+        },
+        "rohit": {
+            "active": true,
+            "active_no_of_loan": 1,
+            "loans": {
+                "1": {
+                    "active": true,
+                    "transaction_date": "2024-11-27",
+                    "date_of_data_entry": "2024-11-27",
+                    "main_principle": 1000000.0,
+                    "current_principle": 1000000.0,
+                    "interest_rate": 2.0,
+                    "interest_payment_interval_months": 5.0,
+                    "deadline_months": 36.0,
+                    "Interest_accumulated_till_today": [
+                        0.0,
+                        0.0
+                    ],
+                    "remark": "cash",
+                    "upcoming_emi_list": [
+                        {
+                            "date": "2024-11-27",
+                            "amount": 100000.0,
+                            "done": false,
+                            "lender_name": "rohit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-04-27",
+                            "amount": 100000.0,
+                            "done": false,
+                            "lender_name": "rohit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2025-09-27",
+                            "amount": 100000.0,
+                            "done": false,
+                            "lender_name": "rohit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-02-27",
+                            "amount": 100000.0,
+                            "done": false,
+                            "lender_name": "rohit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-07-27",
+                            "amount": 100000.0,
+                            "done": false,
+                            "lender_name": "rohit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2026-12-27",
+                            "amount": 100000.0,
+                            "done": false,
+                            "lender_name": "rohit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2027-05-27",
+                            "amount": 100000.0,
+                            "done": false,
+                            "lender_name": "rohit",
+                            "id": 1,
+                            "remark": []
+                        },
+                        {
+                            "date": "2027-10-27",
+                            "amount": 100000.0,
+                            "done": false,
+                            "lender_name": "rohit",
+                            "id": 1,
+                            "remark": []
+                        }
+                    ],
+                    "repayment_list": {}
+                }
+            },
+            "total_liabilities": 1000000.0,
+            "emi_list": {}
+        }
+    }
+}
