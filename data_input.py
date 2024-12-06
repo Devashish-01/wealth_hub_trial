@@ -86,6 +86,7 @@ def main():
                     "interest_payment_interval_months": interest_payment_interval,
                     "deadline_months": deadline_months,
                     "Interest_accumulated_till_today" : interest_accumulated_ ,
+                    "final_amount" : interest_accumulated_ + principle,
                     "remark": remark,
                     "upcoming_emi_list": emi_list_,
                     "repayment_list": {}

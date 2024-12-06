@@ -1,6 +1,6 @@
 import streamlit as st
 import json
-from utils import load_data, save_data
+from utils import *
 import pandas as pd
 from datetime import date , datetime 
 
@@ -87,7 +87,12 @@ def main():
                     # EMI Schedule
                     st.subheader("Upcoming EMI Schedule")
                     emi_df = pd.DataFrame(loan['upcoming_emi_list'])
-                    st.dataframe(emi_df)
+                    updated_emi_list = []
+                    render_emi_section_tab("Due Today", emi_df, updated_emi_list)
+                    if st.button("💾 Save Changes"):
+                        updated_json = update_json_with_done(liabilities, updated_emi_list)
+                        save_data(updated_json, DATA_FILE)
+                        st.success("🎉 EMI statuses updated and saved to JSON!")
 
         with tab2:
             # Loan Actions
@@ -103,7 +108,14 @@ def main():
 
                 if confirm:
                     loan = lender["loans"][loan_id]
-                    if amount > loan["current_principle"]:
+                    final_loan = loan["current_principle"]  + loan["Interest_accumulated_till_today"] 
+                    #update loan["final_amount"] in all places
+                    if amount == final_loan:
+                        loan["current_principle"] = 0
+                        loan["final_amount"] = 0
+                        loan["interest_payment_interval_months"] = remove_further_emi(loan)
+
+                    elif amount > loan["current_principle"]:
                         st.error("Repayment amount exceeds remaining balance.")
                     else:
                         # Update loan details
